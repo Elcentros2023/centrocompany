@@ -185,3 +185,6 @@ footer a{
 color: #e3eaf8;
 text-decoration: none;
 }
+
+@media screen and (max-width: 768px) {
+}
