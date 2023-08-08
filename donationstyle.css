@@ -1,147 +1,170 @@
-/* Nikioly Miti Franco
-ch4 - apply
-Monday, March 13,2023
-Page 217-218
-*/
-
 body, header, nav , main, footer, img, h1, h3 {
-margin:0;
-padding:0;
-border:0;
-}
-
-body{
-    background-color:  #ffffffba;
-}
-
-header{
-    text-align: center;
-    width: 100%;
-    display: inline-block;
-}
-
-header p{
-    margin-top: 3px;
-    font-size: 23px;
-    width: 45%;
-    margin-left: 27%;
-}
-
-/* Style rule for header content*/
-h1 {
-    margin-top: 50px;
-    margin-bottom: 1%;
-    text-align: center;
-    font-size: 3em;
-    font-family: Georgia, Times, serif;
+    margin:0;
+    padding:0;
+    border:0;
+    }
+    header{
+        display: inline-block;
+        width: 100%;
+        background-color: #ffffff;
+        color: #000000;
+        text-align: center;
+        
+        
+    }
+    
+    header p {
+        margin-top: 0px;
+        font-size: 23px;
+        background-color: #ffffff;
+        width: 45%;
+        text-align: center;
+        margin-left: 28%;
+    }
+    body{
+        background-color:  #ffffffba;
+    }
+    
+    
+    
+    
+    
+    h1 {
+        
+        margin-top: 50px;
+        text-align: center;
+        font-size: 3em;
+        font-family:Verdana, Arial, sans-serif; ;
+        padding: 2%;
+        color: #101a2d;
+        background-color: #ffffff;
+    
+    }
+    
+    
+    nav{
+        background-color:  #263529;
+        color: #000000;
+        font-size: 1.5em;
+        text-align: center;
+    }
+    
+    nav ul{
+        list-style-type: none;
+        margin: 0;
+        text-align: center;
+        background-color: #7d89d4;
+        padding: 0;
+    }
+    
+    nav li{
+        display: inline-block;
+        margin: 0 10px;
+        font-family: Verdana, Arial, sans-serif;
+        font-weight: bold;
+    }
+    
+    nav li a{
+        display: block;
+        color: #e3eaf8;
+        padding-top:0.5em;
+        padding-bottom: 0.5em;
+        padding-left: 2em;
+        padding-right: 2em ;
+        text-decoration: none;
+        
+        
+    }
+    
+    nav a:hover{
+        background-color: #000000;
+    }
+    
+    
+    
+    main{
+        padding: 2%;
+        font-family: Geneva, Arial, sans-serif;
+        overflow: auto;
+       
+    }
+    
+    p{
+        font-size: 1.25em;
+    }
+    
+    h3{
+        padding-left: 20%;
+        font-size: 2em;
+        text-align: left;
+        color: #ffffff;
+        
+    
+        
+    }
+    
+    
+    ul{
+       
+        color: #ffffff;
+        text-align: center;
+        background-color: #7d89d4;
+    
+    }
+    
+   
+    .moving{
+    float: right;
+    margin: 0%;
     padding: 0%;
-    color: #101a2d;
-}
-
-
-
-/* Style rules for navigation area*/
-nav{
-
+    
+    
+    }
+    .moving img {
+        width: 700px; 
+        height: 514px;
+        
+       
+        
+    }
+    .image{
+        width: 45%;
+        float: left;
+        padding: 1%;
+    }
+    
+    .group{
+    width: 45%;
+    float: left;
+    
+    
+    
+    
+    }
+    
+    .external{
+        color: #1d396d;
+        text-decoration: none;
+        font-weight: bold;
+        font-style: italic;
+    }
+    
+    
+    
+    footer{
+    font-size: 0.85em;
+    background-color: #ffffff;
     color: #000000;
-    font-size: 1.5em;
-    text-align: center;
-}
-
-nav ul{
-    list-style-type: none;
-    margin: 0;
-    text-align: center;
-    background-color: #5563b3;
-    padding: 0;
-    margin-bottom: -74px;
-}
-
-nav li{
-    display: inline-block;
-    margin: 0 10px;
-    font-family: Verdana, Arial, sans-serif;
-    font-weight: bold;
-}
-
-nav li a{
-    display: block;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 0%;
+    padding-right: 0%;
+    }
+    
+    footer a{
     color: #e3eaf8;
-    padding-top:0.5em;
-    padding-bottom: 0.5em;
-    padding-left: 2em;
-    padding-right: 2em ;
     text-decoration: none;
+    }
     
-    
-}
-
-nav a:hover{
-    background-color: #000000;
-}
-
-/* style rules for main content*/
-
-main{
-    padding: 2%;
-    font-family: Geneva, Arial, sans-serif;
-    
-}
-
-p{
-    font-size: 1.25em;
-}
-
-h3{
-    padding-top: 2%;
-    font-size: 2em;
-    margin-top: 0%;
-    
-}
-
-.image2{
-    margin: 13px auto;
-    width: 100%; 
-    padding: 5%;
-    margin-bottom: -77px;
-    margin-left: 18%;
-
-  }
-
-#group1{
-    font-size: 20px;
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: #5563b3;
-    padding: 1%;
-    max-width: 800px;
-    margin: 0 auto;
-    line-height: 1.6;
-    margin-top: 10px;
-    margin-bottom: -74px;
-    color: #e3eaf8;
-
-
-}
-
-
-
-/* Style rules for footer content*/
-
-footer{
-font-size: 0.85em;
-background-color: #000000;
-color: #e3eaf8;
-padding-top: 1%;
-padding-bottom: 1%;
-padding-left: 0%;
-padding-right: 0%;
-}
-
-footer a{
-color: #e3eaf8;
-text-decoration: none;
-}
-
-@media screen and (max-width: 768px) {
-}
+    @media screen and (max-width: 768px) {
+    }
